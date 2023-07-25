@@ -1,4 +1,5 @@
 import { Button } from "@mui/material";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       >
         Hello World
       </Button>
+      <Navbar />
     </>
   );
 }
