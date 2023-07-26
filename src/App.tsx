@@ -2,7 +2,8 @@
 // import MuiButton from "./components/muiButton";
 // import MuiTextField from "./components/muiTextField";
 // import MuiSelect from "./components/muiSelect";
-import MuiRadioGroup from "./components/muiRadioButton";
+// import MuiRadioGroup from "./components/muiRadioButton";
+import MuiCheckbox from "./components/muiCheckbox";
 
 import "./App.css";
 
@@ -14,7 +15,8 @@ function App() {
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
-      <MuiRadioGroup />
+      {/* <MuiRadioGroup /> */}
+      <MuiCheckbox />
     </div>
   );
 }
