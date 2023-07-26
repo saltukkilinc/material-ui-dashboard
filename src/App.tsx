@@ -1,7 +1,8 @@
 // import MuiTypography from "./components/muiTypography";
 // import MuiButton from "./components/muiButton";
 // import MuiTextField from "./components/muiTextField";
-import MuiSelect from "./components/muiSelect";
+// import MuiSelect from "./components/muiSelect";
+import MuiRadioGroup from "./components/muiRadioButton";
 
 import "./App.css";
 
@@ -12,7 +13,8 @@ function App() {
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
-      <MuiSelect />
+      {/* <MuiSelect /> */}
+      <MuiRadioGroup />
     </div>
   );
 }
