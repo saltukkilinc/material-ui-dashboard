@@ -1,5 +1,6 @@
 // import MuiTypography from "./components/muiTypography";
-import MuiButton from "./components/muiButton";
+// import MuiButton from "./components/muiButton";
+import MuiTextField from "./components/muiTextField";
 
 import "./App.css";
 
@@ -8,7 +9,9 @@ function App() {
   return (
     <div>
       {/* <MuiTypography /> */}
-      <MuiButton />
+      {/* <MuiButton /> */}
+      <MuiTextField />
+      
     </div>
   );
 }
