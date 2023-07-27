@@ -1,10 +1,10 @@
 import React from "react";
-import { Box, Stack, Divider, Grid } from "@mui/material";
+import { Box, Stack, Divider, Grid, Paper } from "@mui/material";
 import styled from "@mui/material";
 
 const MuiLayout = () => {
   return (
-    <>
+    <Paper sx={{ p: 2}} elevation={3}>
       <Stack
         direction="row"
         spacing={2}
@@ -57,7 +57,7 @@ const MuiLayout = () => {
           </Box>
         </Grid>
       </Grid>
-    </>
+    </Paper>
   );
 };
 
